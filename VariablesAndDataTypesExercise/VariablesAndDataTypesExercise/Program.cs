@@ -17,27 +17,28 @@ namespace VariablesAndDataTypesExercise
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("What Course are you on? ");
-                string courseName = Console.ReadLine();
+            string courseName = Console.ReadLine();
             Console.WriteLine("What page number are you on?");
-                string pageNumber = Console.ReadLine();
-                int pageNum = Convert.ToInt32(pageNumber);
+            string pageNumber = Console.ReadLine();
+            int pageNum = Convert.ToInt32(pageNumber);
             Console.WriteLine("Do you need help with anything? Please answer true or false");
-                bool helpNeeded = true;
-                bool helpNotNeeded = false;
-                string needHelp = Convert.ToString(helpNeeded);
-                string notNeedingHelp = Convert.ToString(helpNotNeeded);
+            bool helpNeeded = true;
+            bool helpNotNeeded = false;
+            string needHelp = Convert.ToString(helpNeeded);
+            string notNeedingHelp = Convert.ToString(helpNotNeeded);
             Console.ReadLine();
             Console.WriteLine("Were there any positive experiences you'd like to share? Please give specifics");
-                string positiveExperiences = Console.ReadLine();
+            string positiveExperiences = Console.ReadLine();
             Console.WriteLine("Is there any other feedback you’d like to provide? Please be specific.");
-                string feedback = Console.ReadLine();
+            string feedback = Console.ReadLine();
             Console.WriteLine("How many hours did you study today?");
-                string hoursWorked = Console.ReadLine();
-                int workHours = Convert.ToInt32(hoursWorked);
+            string hoursWorked = Console.ReadLine();
+            int workHours = Convert.ToInt32(hoursWorked);
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("Thank you for your answers. An Instructor will respond to this shortly. Have a great day!");
             Console.Read();
+
 
         }
     }
