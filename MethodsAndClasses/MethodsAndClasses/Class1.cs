@@ -15,8 +15,6 @@ namespace MethodsAndClasses
 
         public int Num1(int input1)
         {
-          
-
             int results = input1 + 5;
             return results;
         }
