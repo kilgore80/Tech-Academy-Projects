@@ -27,6 +27,8 @@ namespace MethodsExercise2
                 Console.WriteLine(Results2);
             }
             Console.ReadLine();
+
+            //made changes
         }
     }
 }
