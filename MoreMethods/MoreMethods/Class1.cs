@@ -18,7 +18,7 @@ namespace MoreMethods
         {
             int results = Num1 * 3; 
             Console.WriteLine(Num2);
-            //Console.WriteLine(results);
+            Console.WriteLine(results);
             Console.ReadLine();
             
         }
