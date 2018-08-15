@@ -29,6 +29,7 @@ namespace ClassMethods
         //  Console.ReadLine();
         //}
 
+       
         //5. Overload a method.
         // {
         //Class1 goat = new Class1();
@@ -50,6 +51,8 @@ namespace ClassMethods
         //string Answer3 = goat.NumMeth3(input5, input6);
         //Console.WriteLine("The string answer is: " +  Answer3);
         //Console.ReadLine();
+
+
         //6. Declare a class to be static
 
         {
