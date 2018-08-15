@@ -30,6 +30,7 @@ namespace ClassMethods
         {
             int results2 = Wal + Gal;
             return results2;
+            
         }
         public float NumMeth3(float Tree, float Day)
         {

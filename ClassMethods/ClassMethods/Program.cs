@@ -30,11 +30,39 @@ namespace ClassMethods
         //}
 
         //5. Overload a method.
-        {
-            Class1 goat = new Class1();
+        // {
+        //Class1 goat = new Class1();
 
-            int input1 = 
+        //int input1 = 20;
+        //int input2 = 10;
+        //int Answer1 = goat.NumMeth3(input1, input2);
+        //Console.WriteLine("The integer answer is: " + Answer1);
+        //Console.ReadLine();
+
+        //float input3 = 24.5f;
+        //float input4 = 2.5f;
+        //float Answer2 = goat.NumMeth3(input3, input4);
+        //Console.WriteLine("The float answer is: " + Answer2);
+        //Console.ReadLine();
+
+        //string input5 = "Whats's";
+        //string input6 = " up you?";
+        //string Answer3 = goat.NumMeth3(input5, input6);
+        //Console.WriteLine("The string answer is: " +  Answer3);
+        //Console.ReadLine();
+        //6. Declare a class to be static
+
+        {
+            int x = 10;
+            int y = 5;
+            int Answer4 =  StaticClass1.Dang(x, y);
+            Console.WriteLine("Your static class answer is : " + Answer4);
+            Console.ReadLine();
+
         }
+        //}
+
+
 
 
     }
