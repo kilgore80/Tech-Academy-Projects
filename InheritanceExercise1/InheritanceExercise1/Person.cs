@@ -9,19 +9,19 @@ namespace InheritanceExercise1
     public class Person
     {
                                   
-        public List<string> FirstName { get; set; }
-        public List<string> LastName { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
 
         public void SayName()
         {
-             foreach (string fName in FirstName)
-            {
+            // foreach (string fName in FirstName)
+           // {
                 //Console.WriteLine("Full name: " + fName);
             
-             foreach (string lName in LastName)
+            // foreach (string lName in LastName)
             
-                Console.WriteLine("Full Name : " + fName + " " + lName );
-            }
+                Console.WriteLine("Full Name : " + FirstName + " " + LastName );
+           // }
            
             Console.ReadLine();
         }

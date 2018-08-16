@@ -11,8 +11,8 @@ namespace InheritanceExercise1
         static void Main(string[] args)
         {
             Employee emp = new Employee();
-            emp.FirstName = new List<string>() { "Sample" };
-            emp.LastName = new List<string>() { "Student" };
+            emp.FirstName = "Sample";
+            emp.LastName = "Student";
             emp.SayName();
             Console.ReadLine();
           
