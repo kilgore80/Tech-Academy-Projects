@@ -8,17 +8,17 @@ namespace AbstractClass
 {
     public abstract class Person
     {
-        public List<string> FirstName { get; set; }
-        public List<string> LastName { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
 
         public virtual void SayName()
         {
-            foreach (string fn in FirstName)
-            {
-            foreach (string ln in LastName)
+           // foreach (string fn in FirstName)
+            //{
+            //foreach (string ln in LastName)
 
-                Console.WriteLine("Full Name : " + fn + " " + ln);
-            }
+                Console.WriteLine("Full Name : " + FirstName + " " + LastName);
+            //}
             
         }
     }

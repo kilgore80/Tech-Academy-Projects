@@ -11,8 +11,8 @@ namespace AbstractClass
         static void Main(string[] args)
         {
             Employee employee = new Employee();
-            employee.FirstName = new List<string>() { "Sample" };
-            employee.LastName = new List<string>() { "Student" };
+            employee.FirstName =  "Sample";
+            employee.LastName = "Student";
             employee.SayName();
             Console.ReadLine();
 
