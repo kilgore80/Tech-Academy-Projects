@@ -16,11 +16,11 @@ namespace TwentyOne
 
             //List<Card> newList = deck.Cards.Where(x => x.Face == Face.King).ToList();
 
-            List<int> numberList = new List<int>() { 1, 2, 3, 535, 342, 23 };
+            //List<int> numberList = new List<int>() { 1, 2, 3, 535, 342, 23 };
 
-            int sum = numberList.Where(x => x > 20).Sum(); 
+            //int sum = numberList.Where(x => x > 20).Sum(); 
 
-            Console.WriteLine(sum);
+            //Console.WriteLine(sum);
 
             //deck.Shuffle(3);
 
