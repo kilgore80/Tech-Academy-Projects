@@ -14,10 +14,14 @@ namespace ExceptionHandlingExercise2
             {
                 Console.WriteLine("Please enter your age.");
                 int age1 = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine(DateTime.Today.AddYears(-age1).Year);
+                //Console.WriteLine(DateTime.Today.AddYears(-age1).Year);
                 if (age1 <= 0)
                 {
                     throw new ArithmeticException();
+                }
+                else
+                {
+                    Console.WriteLine(DateTime.Today.AddYears(-age1).Year);
                 }
             }
             catch (ArithmeticException)

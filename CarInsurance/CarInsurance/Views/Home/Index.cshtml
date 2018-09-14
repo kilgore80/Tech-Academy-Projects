@@ -1,0 +1,62 @@
+﻿<div class="card border-info">
+    <div class="form-row no-gutters m-3">
+        <div class="card  col-md-10  mx-auto shadow">
+            <div class="card-header text-center badge-success">
+                <h1 class="m-0">M & H Auto Insurance<small>&copy;</small></h1>
+                <h5 class="m-0">Get Your Auto Insurance Quote Today!</h5>
+            </div>
+            <div class="card-body bg-info font-weight-bold">
+                @using (Html.BeginForm("AutoInfo", "Home", FormMethod.Post))
+                {
+                <div class="row no-gutters">
+                    <div class="form-group col-md-8">
+                        <p>First Name:</p>
+                        <input name="FirstName" type="text" class="form-control" />
+                    </div>
+                    <div class="form-group col-md-8">
+                        <p>Last Name:</p>
+                        <input name="LastName" type="text" class="form-control" />
+                    </div>
+                    <div class="form-group col-md-8">
+                        <p>Email Address:</p>
+                        <input name="EmailAddress" type="email" class="form-control" />
+                    </div>
+                    <div class="form-group col-md-8">
+                        <p>Date of Birth:</p>
+                        <input name="DateOfBirth" type="text" class="form-control" />
+                    </div>
+                    <div class="form-group col-md-8">
+                        <p>Vehicle Year:</p>
+                        <input name="CarYear" type="text" class="form-control" />
+                    </div>
+                    <div class="form-group col-md-8">
+                        <p>Vehicle Make:</p>
+                        <input name="CarMake" type="text" class="form-control" />
+                    </div>
+                    <div class="form-group col-md-8">
+                        <p>Vehicle Model:</p>
+                        <input name="CarModel" type="text" class="form-control" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <p>Have you ever been issued a DUI?:</p>
+                        <fieldset>
+                            Yes<input name="Dui" type="checkbox" autocomplete="off" class="form-check"/>
+                        </fieldset>
+                    </div>
+                    <div class="form-group col-md-8">
+                        <p>How many speeding tickets have you gotten?:</p>
+                        <input name="Tickets" type="text" class="form-control" />
+                    </div>
+                    <div class="form-group col-md-8">
+                        <p>Coverage?:</p>
+                        Full<input name="Coverage" type="checkbox" class="form-check" checked="checked"/>
+                        Liability<input name="Coverage" type="checkbox" class="form-check" />
+                    </div>
+                        <button type="submit" class="btn-block btn-dark btn-sm">Get Your Quote</button>
+                </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>

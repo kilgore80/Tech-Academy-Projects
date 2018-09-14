@@ -17,7 +17,7 @@ namespace EnumsExercise
             DaysOfTheWeek day = (DaysOfTheWeek)Enum.Parse(typeof(DaysOfTheWeek), x);
 
            
-                day = DaysOfTheWeek.tuesday;
+                day = DaysOfTheWeek.thursday;
                 Console.WriteLine(day + " Is the actual day of the week.");
                 Console.ReadLine();
                 
