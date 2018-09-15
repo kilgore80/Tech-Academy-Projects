@@ -27,7 +27,7 @@ namespace CarInsurance1.Controllers
 
         public ActionResult CustomerQuote()
         {
-            return View(db);
+            return View(db.Insurees);
         }
 
         // GET: Insuree/Details/5
